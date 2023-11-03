@@ -11,9 +11,13 @@ class MainTest {
 		Main main = new Main();
 		int result = main.add(1, 1);
 		assertEquals(2, result);
+	}
 
-		int res = main.add(1,4);
-		assertEquals(5,res);
+	@Test
+	void test1() {
+		Main main = new Main();
+		int result = main.add(1, 3);
+		assertEquals(4, result);
 	}
 
 }
