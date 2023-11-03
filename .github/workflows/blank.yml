@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: First interaction
-        uses: actions/first-interaction@v1.2.0
+      # - name: First interaction
+      #   uses: actions/first-interaction@v1.2.0
             
