@@ -17,7 +17,7 @@ class MainTest {
 	void test1() {
 		Main main = new Main();
 		int result = main.add(1, 3);
-		assertEquals(4, result);
+		assertEquals(2, result);
 	}
 
 }
